@@ -1,0 +1,61 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<h2>Ajouter un emprunt pour un emprunteur</h2>
+
+    {% if messages %}
+        <ul>
+            {% for message in messages %}
+                <li class="{{ message.tags }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <form method="post" action="{% url 'ajouter_emprunt' %}">
+        {% csrf_token %}
+
+        <label for="type_media">Choisir un type de média :</label>
+        <select id="type_media" name="type_media" required onchange="this.form.submit()">
+            <option value="">-- Sélectionnez un type de média --</option>
+            <option value="DVD" {% if selected_type == "DVD" %}selected{% endif %}>DVD</option>
+            <option value="CD" {% if selected_type == "CD" %}selected{% endif %}>CD</option>
+            <option value="Livre" {% if selected_type == "Livre" %}selected{% endif %}>Livre</option>
+        </select><br><br>
+
+        <label for="emprunteur">Choisir un emprunteur :</label>
+        <select id="emprunteur" name="emprunteur" required>
+            <option value="">-- Sélectionnez un emprunteur --</option>
+            {% for emprunteur in emprunteurs %}
+                <option value="{{ emprunteur.id }}" {% if emprunteur.id == selected_emprunteur_id %}selected{% endif %}>
+                    {{ emprunteur.name }}
+                </option>
+            {% endfor %}
+        </select><br><br>
+
+        {% if selected_type %}
+            <label for="media">Choisir un média :</label>
+            <select id="media" name="media" required>
+                <option value="">-- Sélectionnez un média --</option>
+                {% for media in medias %}
+                    <option value="{{ media.id }}">{{ media.name }}</option>
+                {% endfor %}
+            </select><br><br>
+            <div id="connectionButton">
+                <button  type="submit">Ajouter</button>
+            </div>
+        {% endif %}
+    </form>
+
+    <div class="accesButton">
+        <a href="{% url 'gestion' %}">
+            <button type="button">Retour à la page de gestion</button>
+        </a>
+    </div>
+</body>
+</html>

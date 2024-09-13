@@ -1,0 +1,55 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Gestion mediathèque</h1>
+
+    <div class="accesButton">
+        <a href="{% url 'create_emprunteur' %}">
+            <button type="button">Créer un emprunteur</button>
+        </a>
+    </div>
+
+    <div class="accesButton">
+        <a href="{% url 'ajouter_emprunt' %}">
+            <button type="button">Créer un emprunt</button>
+        </a>
+    </div>
+
+    <div class="accesButton">
+        <a href="{% url 'ajouter_media' %}">
+            <button type="button">Ajouter un média</button>
+        </a>
+    </div>
+
+    <div class="accesButton">
+        <a href="{% url 'liste_membres' %}">
+            <button type="button">Liste des membres</button>
+        </a>
+    </div>
+
+    <div class="accesButton">
+        <a href="{% url 'list_media' %}">
+            <button type="button">Consulter les médias</button>
+        </a>
+    </div>
+
+    <div class="accesButton">
+        <a href="{% url 'liste_emprunts' %}">
+            <button type="button">liste des emprunts</button>
+        </a>
+    </div>
+
+    <div class="accesButton">
+        <form method="post" action="{% url 'logout_view' %}">
+            {% csrf_token %}
+            <button type="submit">Déconnexion</button>
+        </form>
+    </div>
+</body>
+</html>

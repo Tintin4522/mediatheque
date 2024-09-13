@@ -1,0 +1,88 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Consultation médiathèque</h1>
+
+    <h2>Vous cherchez quelque chose en particulier ?</h2>
+    <form method="get" action="{% url 'consultation' %}">
+        <input type="text" id="name" name="name" placeholder="Entrez votre recherche">
+        <div class="connectionButton">
+            <button type="submit">Rechercher</button>
+        </div>
+    </form>
+
+    <a href="{% url 'consultation' %}">
+        <button type="button">retourner sur la liste complète</button>
+    </a>
+    <h2>Liste des CD</h2>
+        <ul>
+            {% for cd in cds %}
+                <li>
+                    {{ cd.name }}
+                    {% if cd.artiste %}
+                        <br>Artiste: {{ cd.artiste }}
+                    {% endif %}
+                    <br>Quantité disponible : {{ cd.disponible }}
+                </li>
+            {% empty %}
+                <p>Aucun CD disponible</p>
+            {% endfor %}
+        </ul>
+
+    <h2>Liste des DVD</h2>
+        <ul>
+            {% for dvd in dvds %}
+                <li>
+                    {{ dvd.name }}
+                    {% if dvd.realisateur %}
+                        <br>Réalisé par : {{ dvd.realisateur }}
+                    {% endif %}
+                    <br>Quantité disponible : {{ dvd.disponible }}
+                </li>
+            {% empty %}
+                <p>Aucun DVD disponible</p>
+            {% endfor %}
+        </ul>
+
+    <h2>Liste des Livres</h2>
+        <ul>
+            {% for livre in livres %}
+                <li>
+                    {{ livre.name }}
+                    {% if livre.name %}
+                        <br>Ecrit par : {{ livre.auteur }}
+                    {% endif %}
+                    <br>Quantité disponible : {{ livre.disponible }}
+                </li>
+            {% empty %}
+                <p>Aucun livre disponible</p>
+            {% endfor %}
+        </ul>
+
+    <h2>Liste des Jeux de plateau</h2>
+        <ul>
+            {% for jeu in jeux %}
+                <li>
+                    {{ jeu.name }}
+                    {% if jeu.name %}
+                        <br>Créé par : {{ jeu.createur }}
+                    {% endif %}
+                </li>
+            {% empty %}
+                <p>Aucun jeu disponible</p>
+            {% endfor %}
+        </ul>
+
+    <div class="accesButton">
+        <a href="{% url 'gestion' %}">
+            <button type="button">Retour à la page de gestion</button>
+        </a>
+    </div>
+</body>
+</html>

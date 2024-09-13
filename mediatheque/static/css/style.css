@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+* {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    text-decoration: none;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.accesButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.accesButton button {
+    background-color: blue;
+    color: white;
+    padding: 15px 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.accesButton button:hover {
+    background-color: green;
+}
+
+#connectionButton button {
+    background-color: green;
+    color: black;
+    padding: 15px 30px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.message {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+

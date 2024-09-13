@@ -1,0 +1,26 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Médiathèque</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Médiathèque "Notre livre, notre média"</h1>
+    <div class="accesButton">
+        <a href="{% url 'personnel' %}">
+            <button type="button">Accès bibliothécaire</button>
+        </a>
+        <a href="{% url 'consultation' %}">
+            <button type="button">Consultation des média</button>
+        </a>
+    </div>
+
+</body>
+<footer>
+    <a href="{% url 'admin:index' %}">Accéder à la page d'administration du site</a>
+</footer>
+</html>

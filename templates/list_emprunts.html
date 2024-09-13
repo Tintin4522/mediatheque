@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h2>Liste des emprunts en cours</h2>
+
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li class="{{ message.tags }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        <h2>Liste des emprunts</h2>
+            <ul>
+                {% for emprunt in emprunts %}
+                    <li>{{ emprunt.emprunteur.name }}</li>
+                    <li>{{ emprunt.media.name }}</li>
+                    <li>{{ emprunt.date_retour }}</li>
+                    <form method="post" action="{% url 'marquer_comme_rendu' emprunt.id %}">
+                        {% csrf_token %}
+                        <div id="connectionButton">
+                            <button  type="submit">Marquer comme rendu</button>
+                        </div>
+                    </form>
+                {% empty %}
+                    <p>Aucun emprunts enregistrés</p>
+                {% endfor %}
+            </ul>
+
+        <div class="accesButton">
+            <a href="{% url 'gestion' %}">
+                <button type="button">Retour à la page de gestion</button>
+            </a>
+        </div>
+</body>
+</html>

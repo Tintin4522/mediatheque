@@ -1,0 +1,382 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6568
+"GET /favicon.ico HTTP/1.1" 404 6568
+"GET /personnel/ HTTP/1.1" 200 891
+"GET /personnel/ HTTP/1.1" 200 891
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1404
+"GET /liste-membres/ HTTP/1.1" 200 1404
+"GET /liste-membres/ HTTP/1.1" 200 1404
+"GET /liste-membres/ HTTP/1.1" 200 1404
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /personnel/ HTTP/1.1" 200 891
+"GET /personnel/ HTTP/1.1" 200 891
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1404
+"GET /liste-membres/ HTTP/1.1" 200 1404
+"GET /liste-membres/ HTTP/1.1" 200 1404
+"GET /liste-membres/ HTTP/1.1" 200 1404
+"GET /liste-membres/ HTTP/1.1" 200 1388
+"GET /liste-membres/ HTTP/1.1" 200 1388
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1388
+"GET /liste-membres/ HTTP/1.1" 200 1388
+"GET /liste-membres/ HTTP/1.1" 200 1395
+"GET /liste-membres/ HTTP/1.1" 200 1395
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /ajouter-media/ HTTP/1.1" 200 2215
+"GET /ajouter-media/ HTTP/1.1" 200 2215
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1395
+"GET /liste-membres/ HTTP/1.1" 200 1395
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /liste-membres/ HTTP/1.1" 200 1411
+"GET /liste-membres/ HTTP/1.1" 200 1411
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /list_media/ HTTP/1.1" 200 4503
+"GET /list_media/ HTTP/1.1" 200 4503
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1411
+"GET /liste-membres/ HTTP/1.1" 200 1411
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /liste-membres/ HTTP/1.1" 200 1411
+"GET /liste-membres/ HTTP/1.1" 200 1411
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /liste-membres/ HTTP/1.1" 200 1411
+"GET /liste-membres/ HTTP/1.1" 200 1411
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /liste-membres/ HTTP/1.1" 200 1627
+"GET /liste-membres/ HTTP/1.1" 200 1627
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /liste-membres/ HTTP/1.1" 200 1627
+"GET /liste-membres/ HTTP/1.1" 200 1627
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1627
+"GET /liste-membres/ HTTP/1.1" 200 1627
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /personnel/ HTTP/1.1" 200 891
+"GET /personnel/ HTTP/1.1" 200 891
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1627
+"GET /liste-membres/ HTTP/1.1" 200 1627
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /static/static/css/style.css HTTP/1.1" 404 1874
+"GET /liste-membres/ HTTP/1.1" 200 1620
+"GET /liste-membres/ HTTP/1.1" 200 1620
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /emprunteurs/4/update/ HTTP/1.1" 200 566
+"GET /emprunteurs/4/update/ HTTP/1.1" 200 566
+"POST /emprunteurs/4/update/ HTTP/1.1" 302 0
+"POST /emprunteurs/4/update/ HTTP/1.1" 302 0
+"GET /emprunteurs/ HTTP/1.1" 200 1581
+"GET /emprunteurs/ HTTP/1.1" 200 1581
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"POST /logout/ HTTP/1.1" 302 0
+"POST /logout/ HTTP/1.1" 302 0
+"GET /login/ HTTP/1.1" 200 891
+"GET /login/ HTTP/1.1" 200 891
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /consultation/ HTTP/1.1" 200 3696
+"GET /consultation/ HTTP/1.1" 200 3696
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /personnel/ HTTP/1.1" 200 891
+"GET /personnel/ HTTP/1.1" 200 891
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1576
+"GET /liste-membres/ HTTP/1.1" 200 1576
+"GET /liste-membres/ HTTP/1.1" 200 1576
+"GET /liste-membres/ HTTP/1.1" 200 1576
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /liste-membres/ HTTP/1.1" 200 1581
+C:\Users\kevin\PycharmProjects\devoirMediatheque\gestion\settings.py changed, reloading.
+C:\Users\kevin\PycharmProjects\devoirMediatheque\gestion\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\kevin\PycharmProjects\devoirMediatheque\gestion\settings.py changed, reloading.
+C:\Users\kevin\PycharmProjects\devoirMediatheque\gestion\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /liste-membres/ HTTP/1.1" 200 1581
+C:\Users\kevin\PycharmProjects\devoirMediatheque\gestion\settings.py changed, reloading.
+C:\Users\kevin\PycharmProjects\devoirMediatheque\gestion\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /personnel/ HTTP/1.1" 200 891
+"GET /personnel/ HTTP/1.1" 200 891
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /liste-membres/ HTTP/1.1" 200 1581
+C:\Users\kevin\PycharmProjects\devoirMediatheque\gestion\settings.py changed, reloading.
+C:\Users\kevin\PycharmProjects\devoirMediatheque\gestion\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /personnel/ HTTP/1.1" 200 891
+"GET /personnel/ HTTP/1.1" 200 891
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /liste-membres/ HTTP/1.1" 200 1581
+C:\Users\kevin\PycharmProjects\devoirMediatheque\gestion\settings.py changed, reloading.
+C:\Users\kevin\PycharmProjects\devoirMediatheque\gestion\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /ajouter-media/ HTTP/1.1" 200 2358
+"GET /ajouter-media/ HTTP/1.1" 200 2358
+"GET /ajouter-media/ HTTP/1.1" 200 2215
+"GET /ajouter-media/ HTTP/1.1" 200 2215
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /ajouter-media/ HTTP/1.1" 200 2215
+"GET /ajouter-media/ HTTP/1.1" 200 2215
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /ajouter-emprunt/ HTTP/1.1" 200 1655
+"GET /ajouter-emprunt/ HTTP/1.1" 200 1655
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /creation-emprunteur/ HTTP/1.1" 200 957
+"GET /creation-emprunteur/ HTTP/1.1" 200 957
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /emprunts/ HTTP/1.1" 200 560
+"GET /emprunts/ HTTP/1.1" 200 560
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /list_media/ HTTP/1.1" 200 4503
+"GET /list_media/ HTTP/1.1" 200 4503
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /liste-membres/ HTTP/1.1" 200 1581
+"GET /liste-membres/ HTTP/1.1" 200 1581
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\kevin\PycharmProjects\devoirMediatheque\mediatheque\models.py changed, reloading.
+C:\Users\kevin\PycharmProjects\devoirMediatheque\mediatheque\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /static/css/style.css HTTP/1.1" 404 1853
+"GET /static/css/style.css HTTP/1.1" 404 1853
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6568
+"GET /favicon.ico HTTP/1.1" 404 6568
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /static/css/style.css HTTP/1.1" 200 1335
+"GET /static/css/style.css HTTP/1.1" 200 1335
+"GET /consultation/ HTTP/1.1" 200 3696
+"GET /consultation/ HTTP/1.1" 200 3696
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /personnel/ HTTP/1.1" 200 891
+"GET /personnel/ HTTP/1.1" 200 891
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /ajouter-media/ HTTP/1.1" 200 2215
+"GET /ajouter-media/ HTTP/1.1" 200 2215
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"POST /ajouter-media/ HTTP/1.1" 302 0
+"POST /ajouter-media/ HTTP/1.1" 302 0
+"GET /ajouter-media/ HTTP/1.1" 200 2408
+"GET /ajouter-media/ HTTP/1.1" 200 2408
+"POST /ajouter-media/ HTTP/1.1" 302 0
+"POST /ajouter-media/ HTTP/1.1" 302 0
+"GET /ajouter-media/ HTTP/1.1" 200 2416
+"GET /ajouter-media/ HTTP/1.1" 200 2416
+"POST /ajouter-media/ HTTP/1.1" 302 0
+"POST /ajouter-media/ HTTP/1.1" 302 0
+"GET /ajouter-media/ HTTP/1.1" 200 2403
+"GET /ajouter-media/ HTTP/1.1" 200 2403
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+C:\Users\kevin\PycharmProjects\devoirMediatheque\mediatheque\views.py changed, reloading.
+C:\Users\kevin\PycharmProjects\devoirMediatheque\mediatheque\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\kevin\PycharmProjects\devoirMediatheque\mediatheque\views.py changed, reloading.
+C:\Users\kevin\PycharmProjects\devoirMediatheque\mediatheque\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\kevin\PycharmProjects\devoirMediatheque\mediatheque\views.py changed, reloading.
+C:\Users\kevin\PycharmProjects\devoirMediatheque\mediatheque\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /list_media/ HTTP/1.1" 200 4503
+"GET /list_media/ HTTP/1.1" 200 4503
+"GET /list_media/ HTTP/1.1" 200 4640
+"GET /list_media/ HTTP/1.1" 200 4640
+"GET /list_media/ HTTP/1.1" 200 5283
+"GET /list_media/ HTTP/1.1" 200 5283
+"GET /list_media/ HTTP/1.1" 200 5139
+"GET /list_media/ HTTP/1.1" 200 5139
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"POST /logout/ HTTP/1.1" 302 0
+"POST /logout/ HTTP/1.1" 302 0
+"GET /login/ HTTP/1.1" 200 891
+"GET /login/ HTTP/1.1" 200 891
+"GET / HTTP/1.1" 200 526
+"GET / HTTP/1.1" 200 526
+"GET /consultation/ HTTP/1.1" 200 4332
+"GET /consultation/ HTTP/1.1" 200 4332
+"GET /gestion/ HTTP/1.1" 302 0
+"GET /gestion/ HTTP/1.1" 302 0
+"GET /login/?next=/gestion/ HTTP/1.1" 200 891
+"GET /login/?next=/gestion/ HTTP/1.1" 200 891
+C:\Users\kevin\PycharmProjects\devoirMediatheque\mediatheque\urls.py changed, reloading.
+C:\Users\kevin\PycharmProjects\devoirMediatheque\mediatheque\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 583
+"GET / HTTP/1.1" 200 583
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4238
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4238
+"GET / HTTP/1.1" 200 599
+"GET / HTTP/1.1" 200 599
+"GET /consultation/ HTTP/1.1" 200 4332
+"GET /consultation/ HTTP/1.1" 200 4332
+"GET /consultation/?name=pan HTTP/1.1" 200 1301
+"GET /consultation/?name=pan HTTP/1.1" 200 1301
+"GET / HTTP/1.1" 200 599
+"GET / HTTP/1.1" 200 599
+"GET /consultation/ HTTP/1.1" 200 4332
+"GET /consultation/ HTTP/1.1" 200 4332
+"GET /consultation/ HTTP/1.1" 200 4455
+"GET /consultation/ HTTP/1.1" 200 4455
+"GET /consultation/?name=pan HTTP/1.1" 200 1424
+"GET /consultation/?name=pan HTTP/1.1" 200 1424
+"GET /consultation/ HTTP/1.1" 200 4455
+"GET /consultation/ HTTP/1.1" 200 4455
+"GET /consultation/ HTTP/1.1" 200 4444
+"GET /consultation/ HTTP/1.1" 200 4444
+"GET /consultation/ HTTP/1.1" 200 4444
+"GET /consultation/ HTTP/1.1" 200 4444
+"GET / HTTP/1.1" 200 599
+"GET / HTTP/1.1" 200 599
+"GET /personnel/ HTTP/1.1" 200 891
+"GET /personnel/ HTTP/1.1" 200 891
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /list_media/ HTTP/1.1" 200 5250
+"GET /list_media/ HTTP/1.1" 200 5250
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 617
+"GET / HTTP/1.1" 200 617
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3781
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3781
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3781
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3781
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 617
+"GET / HTTP/1.1" 200 617
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3781
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 3781
+"GET /personnel/ HTTP/1.1" 200 891
+"GET /personnel/ HTTP/1.1" 200 891
+"POST /login/ HTTP/1.1" 302 0
+"POST /login/ HTTP/1.1" 302 0
+"GET /gestion/ HTTP/1.1" 200 1415
+"GET /gestion/ HTTP/1.1" 200 1415
+"POST /logout/ HTTP/1.1" 302 0
+"POST /logout/ HTTP/1.1" 302 0
+"GET /login/ HTTP/1.1" 200 891
+"GET /login/ HTTP/1.1" 200 891
+"GET / HTTP/1.1" 200 617
+"GET / HTTP/1.1" 200 617
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4238
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4238

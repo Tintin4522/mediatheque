@@ -1,0 +1,70 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js' %}" defer></script>
+</head>
+<body>
+    <h2>Ajouter un média</h2>
+
+    <form method="POST" action="{% url 'ajouter_media' %}">
+        {% csrf_token %}
+
+        <label for="type_media">Type de média :</label>
+        <select id="type_media" name="type_media">
+            <option value="">Sélectionnez un type</option>
+            <option value="DVD" {% if selected_type == 'DVD' %}selected{% endif %}>DVD</option>
+            <option value="CD" {% if selected_type == 'CD' %}selected{% endif %}>CD</option>
+            <option value="Livre" {% if selected_type == 'Livre' %}selected{% endif %}>Livre</option>
+            <option value="JeuDePlateau" {% if selected_type == 'JeuDePlateau' %}selected{% endif %}>Jeu de Plateau</option>
+        </select>
+
+        <label for="nom_media">Nom du média :</label>
+        <input type="text" id="nom_media" name="nom_media" required>
+
+        <label for="nb_dispo">Quantité :</label>
+        <input type="text" id="nb_dispo" name="nb_dispo" {% if selected_type == 'JeuDePlateau' %}disabled{% endif %} required>
+
+        <div id="realisateur_field" style="display: none;">
+            <label for="nom_realisateur">Nom du réalisateur :</label>
+            <input type="text" id="nom_realisateur" name="nom_realisateur">
+        </div>
+
+        <div id="auteur_field" style="display: none;">
+            <label for="nom_auteur">Nom de l'auteur :</label>
+            <input type="text" id="nom_auteur" name="nom_auteur">
+        </div>
+
+        <div id="artiste_field" style="display: none;">
+            <label for="nom_artiste">Nom de l'artiste :</label>
+            <input type="text" id="nom_artiste" name="nom_artiste">
+        </div>
+
+        <div id="createur_field" style="display: none;">
+            <label for="createur_jeu">Nom du créateur :</label>
+            <input type="text" id="createur_jeu" name="createur_jeu">
+        </div>
+
+        <div class="accesButton">
+            <button type="submit" name="submit_type">Ajouter le média</button>
+        </div>
+    </form>
+
+    {% if messages %}
+        <ul>
+            {% for message in messages %}
+                <li class="{{ message.tags }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <div class="accesButton">
+        <a href="{% url 'gestion' %}">
+            <button type="button">Retour à la page de gestion</button>
+        </a>
+    </div>
+</body>
+</html>
